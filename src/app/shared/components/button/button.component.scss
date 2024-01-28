@@ -1,0 +1,28 @@
+button {
+  border-radius: 18px;
+  font-size: 17px;
+  outline: none;
+  padding: 14px 60px;
+  cursor: pointer;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.primary {
+  background: #6262d7;
+  color: white;
+  font-weight: 500;
+  border: 0;
+  transition: all .3s ease;
+
+  &:hover {
+    background: #7272d7;
+    transition: all .3s ease;
+  }
+}
+
+:host:has(.fullWidth) {
+  width: 100%;
+}
