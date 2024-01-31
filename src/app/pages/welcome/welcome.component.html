@@ -1,1 +1,10 @@
-<p>welcome works!</p>
+<div class="welcome__container">
+  <div class="welcome__card" @zoomInOnEnter>
+    <div class="welcome__content">
+      <img [src]="monsterImage" alt="monster">
+      <h3>Welcome to "Monster Clicker" 👋</h3>
+      <p>Greetings, adventurer! Ready to dive into a world of fun and games? Let the excitement begin! 🎮✨</p>
+      <app-button label="Get started" (byClick)="getStart()"></app-button>
+    </div>
+  </div>
+</div>
